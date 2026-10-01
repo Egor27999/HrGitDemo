@@ -17,6 +17,8 @@ namespace HrGitDemo
             StartPosition = FormStartPosition.CenterScreen;
 
             title.Text = "Демонстрация Git и ветвления";
+            var branchLabel = new Label { Text = "Функция из ветки Addfunction", AutoSize = true, Location = new Point(180, 205) };
+            Controls.Add(branchLabel);
             title.Font = new Font("Segoe UI", 18, FontStyle.Bold);
             title.AutoSize = true;
             title.Location = new Point(120, 70);
